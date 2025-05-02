@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Garlic Bread",
+    "description": "Toasted baguette slices with garlic butter and herbs.",
+    "ingredients": ["bread", "garlic", "butter", "parsley"],
+    "price": 4.99,
+    "dietary_tags": ["vegetarian"],
+    "allergens": ["gluten", "dairy"]
+  },
+  {
+    "name": "Caesar Salad",
+    "description": "Romaine lettuce with Caesar dressing, croutons, and parmesan.",
+    "ingredients": ["lettuce", "parmesan", "croutons", "caesar dressing"],
+    "price": 7.99,
+    "dietary_tags": ["contains-dairy"],
+    "allergens": ["gluten", "dairy", "eggs"]
+  },
+  {
+    "name": "Vegan Buddha Bowl",
+    "description": "Quinoa, chickpeas, avocado, veggies, tahini dressing.",
+    "ingredients": ["quinoa", "chickpeas", "avocado", "carrots", "tahini"],
+    "price": 10.99,
+    "dietary_tags": ["vegan", "gluten-free"],
+    "allergens": ["sesame"]
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "description": "Creamy pasta with pancetta, egg, and parmesan.",
+    "ingredients": ["spaghetti", "egg", "parmesan", "pancetta", "cream"],
+    "price": 13.99,
+    "dietary_tags": ["contains-meat"],
+    "allergens": ["gluten", "dairy", "eggs"]
+  },
+  {
+    "name": "Grilled Salmon",
+    "description": "Fresh Atlantic salmon served with lemon butter and vegetables.",
+    "ingredients": ["salmon", "butter", "lemon", "broccoli", "carrots"],
+    "price": 18.99,
+    "dietary_tags": ["seafood", "gluten-free"],
+    "allergens": ["fish", "dairy"]
+  },
+  {
+    "name": "BBQ Chicken Pizza",
+    "description": "Thin crust pizza with BBQ sauce, chicken, and mozzarella.",
+    "ingredients": ["flour", "bbq sauce", "chicken", "mozzarella", "onion"],
+    "price": 14.99,
+    "dietary_tags": ["contains-meat"],
+    "allergens": ["gluten", "dairy"]
+  },
+  {
+    "name": "Tiramisu",
+    "description": "Classic Italian dessert with mascarpone, coffee, and cocoa.",
+    "ingredients": ["mascarpone", "ladyfingers", "coffee", "cocoa", "sugar"],
+    "price": 6.99,
+    "dietary_tags": ["vegetarian"],
+    "allergens": ["gluten", "dairy", "eggs"]
+  },
+  {
+    "name": "Fresh Orange Juice",
+    "description": "Cold-pressed orange juice made fresh daily.",
+    "ingredients": ["orange"],
+    "price": 3.99,
+    "dietary_tags": ["vegan", "gluten-free"],
+    "allergens": []
+  },
+  {
+    "name": "Cappuccino",
+    "description": "Espresso with steamed milk and foam.",
+    "ingredients": ["coffee", "milk"],
+    "price": 3.49,
+    "dietary_tags": ["vegetarian"],
+    "allergens": ["dairy"]
+  }
+]
