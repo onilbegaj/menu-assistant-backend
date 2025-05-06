@@ -52,7 +52,9 @@ Assistant:
         reply = response.choices[0].message["content"]
         return jsonify({"response": reply})
     except Exception as e:
+        print("🔥 ERROR:", e)  # Add this line to log the actual error
         return jsonify({"error": str(e)}), 500
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
