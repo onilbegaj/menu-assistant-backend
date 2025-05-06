@@ -52,8 +52,11 @@ Assistant:
         reply = response.choices[0].message["content"]
         return jsonify({"response": reply})
     except Exception as e:
-        print("🔥 ERROR:", e)  # Add this line to log the actual error
+        import traceback
+        print("🔥 ERROR:")
+        traceback.print_exc()  # ⬅️ This will print the full stack trace
         return jsonify({"error": str(e)}), 500
+
 
 
 if __name__ == "__main__":
